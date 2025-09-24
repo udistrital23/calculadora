@@ -1,8 +1,13 @@
-package com.example;
+/*********************************************************************************
+
+Calculadora de operaciones aritméticas básicas, con números de bases entre 2 y 10
+
+*********************************************************************************/
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Calculadora
+public class AMBRCalculadora
 {
 
     private Scanner entrada;
@@ -12,7 +17,7 @@ public class Calculadora
     private Operacion operacion;
     private Numero resultado;
 
-    public Calculadora() 
+    public AMBRCalculadora() 
     {
         this.entrada = new Scanner(System.in);
     }
@@ -250,7 +255,7 @@ public class Calculadora
 
     public static void main(String[] args) 
     {
-        Calculadora control = new Calculadora();
+        AMBRCalculadora control = new AMBRCalculadora();
         control.iniciar();
     }
 }
@@ -258,6 +263,47 @@ public class Calculadora
 abstract class Operacion 
 {
     public abstract double calcular(Numero num1, Numero num2);
+}
+
+class Suma extends Operacion 
+{
+    @Override
+    public double calcular(Numero num1, Numero num2) 
+    {
+        return num1.convertirADecimal() + num2.convertirADecimal();
+    }
+}
+
+class Resta extends Operacion 
+{
+    @Override
+    public double calcular(Numero num1, Numero num2) 
+    {
+        return num1.convertirADecimal() - num2.convertirADecimal();
+    }
+}
+
+class Multiplicacion extends Operacion 
+{
+    @Override
+    public double calcular(Numero num1, Numero num2) 
+    {
+        return num1.convertirADecimal() * num2.convertirADecimal();
+    }
+}
+
+class Division extends Operacion 
+{
+    @Override
+    public double calcular(Numero num1, Numero num2) 
+    {
+        if (num2.convertirADecimal() == 0) 
+        {
+            System.out.println();
+            throw new IllegalArgumentException("No se puede dividir por cero.");
+        }
+        return (double) num1.convertirADecimal() / num2.convertirADecimal();
+    }
 }
 
 class Numero 
