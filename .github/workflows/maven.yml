@@ -1,0 +1,25 @@
+name: Java CI - Maven
+#cuando se debe ejecutar nuestro flujo
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest #maquina donde nuestro codigo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          cache: 'maven'
+
+      - name: Build and run tests #compila y ejecuta los tests
+        run: mvn -B clean test

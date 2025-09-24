@@ -1,0 +1,15 @@
+{
+  "name": "Java Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "vscjava.vscode-maven",           // soporte Maven
+        "vscjava.vscode-java-test"        // soporte JUnit y correr tests desde VS Code
+      ]
+    }
+  }
+}
