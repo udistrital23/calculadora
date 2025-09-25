@@ -22,4 +22,34 @@ class CalculadoraTest {
         assertEquals("17", valorEnBase8);
     }
 
+    @Test
+    public void testDivisionValida() {
+        // Preparación
+        Numero num1 = new Numero("110", 2); // 6 en decimal
+        Numero num2 = new Numero("11", 2);  // 3 en decimal
+        Division division = new Division();
+        
+        // Ejecución
+        double resultadoDecimal = division.calcular(num1, num2);
+        
+        // Verificación
+        assertEquals(2.0, resultadoDecimal, "La división debería dar 2.0.");
+    }
+    
+    @Test
+    public void testDivisionPorCero() {
+        // Preparación
+        Numero num1 = new Numero("110", 2); // 6 en decimal
+        Numero num2 = new Numero("0", 2);   // 0 en decimal
+        Division division = new Division();
+        
+        // Ejecución y verificación de la excepción
+        IllegalArgumentException thrown = assertThrows(IllegalArgumentException.class, () -> {
+            division.calcular(num1, num2);
+        });
+        
+        assertEquals("No se puede dividir por cero.", thrown.getMessage());
+    }
+
+
 }
