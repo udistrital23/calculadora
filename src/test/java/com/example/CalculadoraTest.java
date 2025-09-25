@@ -41,6 +41,7 @@ class CalculadoraTest {
         double resultado = suma.calcular(num1, num2);
 
         assertEquals(8, resultado, "101(base2=5) + 11(base2=3) debería ser 8 en decimal");
+    }
     @Test
     void testMultiplicacionBaseDecimal() {
         Numero num1 = new Numero("5", 10); // 5 en base 10
