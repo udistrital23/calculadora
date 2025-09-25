@@ -21,7 +21,27 @@ class CalculadoraTest {
         String valorEnBase8 = Numero.convertirDeDecimal(15, 8);
         assertEquals("17", valorEnBase8);
     }
+    @Test
+    void testSumaDecimal() {
+        Numero num1 = new Numero("10", 10); // 10 en base 10
+        Numero num2 = new Numero("5", 10);  // 5 en base 10
+        Suma suma = new Suma();
 
+        double resultado = suma.calcular(num1, num2);
+
+        assertEquals(15, resultado, "10 + 5 en base 10 debería ser 15");
+    }
+
+    @Test
+    void testSumaBinaria() {
+        Numero num1 = new Numero("101", 2); // 5 en decimal
+        Numero num2 = new Numero("11", 2);  // 3 en decimal
+        Suma suma = new Suma();
+
+        double resultado = suma.calcular(num1, num2);
+
+        assertEquals(8, resultado, "101(base2=5) + 11(base2=3) debería ser 8 en decimal");
+    }
     @Test
     void testMultiplicacionBaseDecimal() {
         Numero num1 = new Numero("5", 10); // 5 en base 10
