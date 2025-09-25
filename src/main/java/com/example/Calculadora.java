@@ -148,16 +148,16 @@ public class Calculadora
                 switch (op) 
                 {
                     case "+":
-                        this.operacion = new Suma();
+                        //this.operacion = new Suma();
                         break;
                     case "-":
-                        this.operacion = new Resta();
+                        //this.operacion = new Resta();
                         break;
                     case "*":
-                        this.operacion = new Multiplicacion();
+                        //this.operacion = new Multiplicacion();
                         break;
                     case "/":
-                        this.operacion = new Division();
+                        //this.operacion = new Division();
                         break;
                     default:
                         System.out.println();
@@ -220,22 +220,22 @@ public class Calculadora
     private void mostrarResultado() 
     {
         String simboloOperacion = "?";
-        if (operacion instanceof Suma) 
-        {
-            simboloOperacion = "+";
-        } 
-        else if (operacion instanceof Resta) 
-        {
-            simboloOperacion = "-";
-        } 
-        else if (operacion instanceof Multiplicacion) 
-        {
-            simboloOperacion = "*";
-        } 
-        else if (operacion instanceof Division) 
-        {
-            simboloOperacion = "/";
-        } 
+        // if (operacion instanceof Suma) 
+        // {
+        //     simboloOperacion = "+";
+        // } 
+        // else if (operacion instanceof Resta) 
+        // {
+        //     simboloOperacion = "-";
+        // } 
+        // else if (operacion instanceof Multiplicacion) 
+        // {
+        //     simboloOperacion = "*";
+        // } 
+        // else if (operacion instanceof Division) 
+        // {
+        //     simboloOperacion = "/";
+        // } 
         
         System.out.println();
         System.out.println();
