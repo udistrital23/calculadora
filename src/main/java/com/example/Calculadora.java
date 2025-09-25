@@ -118,13 +118,13 @@ public class Calculadora {
                 String op = entrada.next();
                 switch (op) {
                     case "+":
-                        // this.operacion = new Suma();
+                        this.operacion = new Suma();
                         break;
                     case "-":
                         // this.operacion = new Resta();
                         break;
                     case "*":
-                        // this.operacion = new Multiplicacion();
+                        this.operacion = new Multiplicacion();
                         break;
                     case "/":
                         this.operacion = new Division();
@@ -178,20 +178,16 @@ public class Calculadora {
 
     private void mostrarResultado() {
         String simboloOperacion = "?";
-        // if (operacion instanceof Suma)
-        // {
-        // simboloOperacion = "+";
-        // }
+        if (operacion instanceof Suma) {
+            simboloOperacion = "+";
+        }
         // else if (operacion instanceof Resta)
         // {
         // simboloOperacion = "-";
         // }
-        // else if (operacion instanceof Multiplicacion)
-        // {
-        // simboloOperacion = "*";
-        // }
-        // else
-        if (operacion instanceof Division) {
+        else if (operacion instanceof Multiplicacion) {
+            simboloOperacion = "*";
+        } else if (operacion instanceof Division) {
             simboloOperacion = "/";
         }
 
@@ -214,6 +210,20 @@ public class Calculadora {
 
 abstract class Operacion {
     public abstract double calcular(Numero num1, Numero num2);
+}
+
+class Multiplicacion extends Operacion {
+    @Override
+    public double calcular(Numero num1, Numero num2) {
+        return num1.convertirADecimal() * num2.convertirADecimal();
+    }
+}
+
+class Suma extends Operacion {
+    @Override
+    public double calcular(Numero num1, Numero num2) {
+        return num1.convertirADecimal() + num2.convertirADecimal();
+    }
 }
 
 class Division extends Operacion {
