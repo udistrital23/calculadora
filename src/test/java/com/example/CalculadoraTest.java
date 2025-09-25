@@ -22,4 +22,25 @@ class CalculadoraTest {
         assertEquals("17", valorEnBase8);
     }
 
+    @Test
+    void testMultiplicacionBaseDecimal() {
+        Numero num1 = new Numero("5", 10); // 5 en base 10
+        Numero num2 = new Numero("3", 10); // 3 en base 10
+
+        Operacion operacion = new Multiplicacion();
+        double resultado = operacion.calcular(num1, num2);
+
+        assertEquals(15.0, resultado);
+    }
+
+    @Test
+    void testMultiplicacionBaseBinaria() {
+        Numero num1 = new Numero("101", 2); // 5 en base 2
+        Numero num2 = new Numero("11", 2);  // 3 en base 2
+
+        Operacion operacion = new Multiplicacion();
+        double resultado = operacion.calcular(num1, num2);
+
+        assertEquals(15.0, resultado);
+    }
 }
