@@ -148,7 +148,7 @@ public class Calculadora
                 switch (op) 
                 {
                     case "+":
-                        //this.operacion = new Suma();
+                        this.operacion = new Suma();
                         break;
                     case "-":
                         //this.operacion = new Resta();
@@ -220,10 +220,10 @@ public class Calculadora
     private void mostrarResultado() 
     {
         String simboloOperacion = "?";
-        // if (operacion instanceof Suma) 
-        // {
-        //     simboloOperacion = "+";
-        // } 
+         if (operacion instanceof Suma) 
+         {
+             simboloOperacion = "+";
+         } 
         // else if (operacion instanceof Resta) 
         // {
         //     simboloOperacion = "-";
@@ -259,7 +259,14 @@ abstract class Operacion
 {
     public abstract double calcular(Numero num1, Numero num2);
 }
-
+class Suma extends Operacion 
+{
+    @Override
+    public double calcular(Numero num1, Numero num2) 
+    {
+        return num1.convertirADecimal() + num2.convertirADecimal();
+    }
+}
 class Numero 
 {
     private String valor;
