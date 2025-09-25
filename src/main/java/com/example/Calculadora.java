@@ -121,7 +121,7 @@ public class Calculadora {
                         this.operacion = new Suma();
                         break;
                     case "-":
-                        // this.operacion = new Resta();
+                        this.operacion = new Resta();
                         break;
                     case "*":
                         this.operacion = new Multiplicacion();
@@ -180,12 +180,9 @@ public class Calculadora {
         String simboloOperacion = "?";
         if (operacion instanceof Suma) {
             simboloOperacion = "+";
-        }
-        // else if (operacion instanceof Resta)
-        // {
-        // simboloOperacion = "-";
-        // }
-        else if (operacion instanceof Multiplicacion) {
+        } else if (operacion instanceof Resta) {
+            simboloOperacion = "-";
+        } else if (operacion instanceof Multiplicacion) {
             simboloOperacion = "*";
         } else if (operacion instanceof Division) {
             simboloOperacion = "/";
@@ -234,6 +231,13 @@ class Division extends Operacion {
             throw new IllegalArgumentException("No se puede dividir por cero.");
         }
         return (double) num1.convertirADecimal() / num2.convertirADecimal();
+    }
+}
+
+class Resta extends Operacion {
+    @Override
+    public double calcular(Numero num1, Numero num2) {
+        return num1.convertirADecimal() - num2.convertirADecimal();
     }
 }
 
