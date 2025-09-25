@@ -118,16 +118,16 @@ public class Calculadora {
                 String op = entrada.next();
                 switch (op) {
                     case "+":
-                        // this.operacion = new Suma();
+                        this.operacion = new Suma();
                         break;
                     case "-":
                         this.operacion = new Resta();
                         break;
                     case "*":
-                        // this.operacion = new Multiplicacion();
+                        this.operacion = new Multiplicacion();
                         break;
                     case "/":
-                        // this.operacion = new Division();
+                        this.operacion = new Division();
                         break;
                     default:
                         System.out.println();
@@ -178,25 +178,14 @@ public class Calculadora {
 
     private void mostrarResultado() {
         String simboloOperacion = "?";
-        // if (operacion instanceof Suma)
-        // {
-        // simboloOperacion = "+";
-        // }
-        // else if (operacion instanceof Resta)
-        // {
-        // simboloOperacion = "-";
-        // }
-        // else if (operacion instanceof Multiplicacion)
-        // {
-        // simboloOperacion = "*";
-        // }
-        // else if (operacion instanceof Division)
-        // {
-        // simboloOperacion = "/";
-        // }
-
-        if (operacion instanceof Resta) {
+        if (operacion instanceof Suma) {
+            simboloOperacion = "+";
+        } else if (operacion instanceof Resta) {
             simboloOperacion = "-";
+        } else if (operacion instanceof Multiplicacion) {
+            simboloOperacion = "*";
+        } else if (operacion instanceof Division) {
+            simboloOperacion = "/";
         }
 
         System.out.println();
@@ -218,6 +207,31 @@ public class Calculadora {
 
 abstract class Operacion {
     public abstract double calcular(Numero num1, Numero num2);
+}
+
+class Multiplicacion extends Operacion {
+    @Override
+    public double calcular(Numero num1, Numero num2) {
+        return num1.convertirADecimal() * num2.convertirADecimal();
+    }
+}
+
+class Suma extends Operacion {
+    @Override
+    public double calcular(Numero num1, Numero num2) {
+        return num1.convertirADecimal() + num2.convertirADecimal();
+    }
+}
+
+class Division extends Operacion {
+    @Override
+    public double calcular(Numero num1, Numero num2) {
+        if (num2.convertirADecimal() == 0) {
+            System.out.println();
+            throw new IllegalArgumentException("No se puede dividir por cero.");
+        }
+        return (double) num1.convertirADecimal() / num2.convertirADecimal();
+    }
 }
 
 class Resta extends Operacion {
