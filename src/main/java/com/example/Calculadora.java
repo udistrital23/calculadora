@@ -154,7 +154,7 @@ public class Calculadora
                         //this.operacion = new Resta();
                         break;
                     case "*":
-                        //this.operacion = new Multiplicacion();
+                        this.operacion = new Multiplicacion();
                         break;
                     case "/":
                         //this.operacion = new Division();
@@ -228,10 +228,11 @@ public class Calculadora
         // {
         //     simboloOperacion = "-";
         // } 
-        // else if (operacion instanceof Multiplicacion) 
-        // {
-        //     simboloOperacion = "*";
-        // } 
+        // else 
+        if (operacion instanceof Multiplicacion) 
+        {
+            simboloOperacion = "*";
+        } 
         // else if (operacion instanceof Division) 
         // {
         //     simboloOperacion = "/";
@@ -258,6 +259,15 @@ public class Calculadora
 abstract class Operacion 
 {
     public abstract double calcular(Numero num1, Numero num2);
+}
+
+class Multiplicacion extends Operacion 
+{
+    @Override
+    public double calcular(Numero num1, Numero num2) 
+    {
+        return num1.convertirADecimal() * num2.convertirADecimal();
+    }
 }
 class Suma extends Operacion 
 {
