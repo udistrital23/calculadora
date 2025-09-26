@@ -4,5 +4,4 @@ DEF-002;#8;src/test/java/com/example/Calculadora.java;157, 232, 264;No funcional
 DEF-003;#8;src/test/java/com/example/CalculadoraTest.java;25;No funcional;Alta;Conflictos por diferencia de versiones en merge;ACEPTADO;maxi9113;maxi9113;Se corrige en commit 707c83b
 DEF-004;#11;src/test/java/com/example/Calculadora.java;151, 223;No funcional;Alta;Conflictos por diferencia de versiones en merge;ACEPTADO;mikeforeros;mikeforeros;Se corrige en commit 1469666
 DEF-005;#11;src/test/java/com/example/CalculadoraTest.java;62;No funcional;Alta;Conflictos por diferencia de versiones en merge;ACEPTADO;mikeforeros;mikeforeros;Se corrige en commit 1469666
-;;;;;;;;;;
-;;;;;;;;;;
+
