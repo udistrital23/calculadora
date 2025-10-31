@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.RunCucumberTest" time="0.814" tests="20" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.RunCucumberTest" time="1.467" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/msopenjdk-current/lib"/>
-    <property name="sun.java.command" value="/workspaces/calculadora/target/surefire/surefirebooter-20251031034742967_3.jar /workspaces/calculadora/target/surefire 2025-10-31T03-47-42_923-jvmRun1 surefire-20251031034742967_1tmp surefire_0-20251031034742967_2tmp"/>
+    <property name="sun.java.command" value="/workspaces/calculadora/target/surefire/surefirebooter-20251031035424290_3.jar /workspaces/calculadora/target/surefire 2025-10-31T03-54-24_237-jvmRun1 surefire-20251031035424290_1tmp surefire_0-20251031035424290_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/workspaces/calculadora/target/test-classes:/workspaces/calculadora/target/classes:/home/vscode/.m2/repository/io/cucumber/cucumber-java/7.30.0/cucumber-java-7.30.0.jar:/home/vscode/.m2/repository/io/cucumber/cucumber-core/7.30.0/cucumber-core-7.30.0.jar:/home/vscode/.m2/repository/io/cucumber/cucumber-gherkin/7.30.0/cucumber-gherkin-7.30.0.jar:/home/vscode/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.30.0/cucumber-gherkin-messages-7.30.0.jar:/home/vscode/.m2/repository/io/cucumber/gherkin/35.1.0/gherkin-35.1.0.jar:/home/vscode/.m2/repository/org/assertj/assertj-core/3.27.5/assertj-core-3.27.5.jar:/home/vscode/.m2/repository/net/bytebuddy/byte-buddy/1.17.7/byte-buddy-1.17.7.jar:/home/vscode/.m2/repository/io/cucumber/messages/29.0.1/messages-29.0.1.jar:/home/vscode/.m2/repository/io/cucumber/pretty-formatter/2.3.0/pretty-formatter-2.3.0.jar:/home/vscode/.m2/repository/io/cucumber/query/14.6.0/query-14.6.0.jar:/home/vscode/.m2/repository/io/cucumber/teamcity-formatter/0.1.1/teamcity-formatter-0.1.1.jar:/home/vscode/.m2/repository/io/cucumber/testng-xml-formatter/0.6.0/testng-xml-formatter-0.6.0.jar:/home/vscode/.m2/repository/io/cucumber/tag-expressions/6.1.2/tag-expressions-6.1.2.jar:/home/vscode/.m2/repository/io/cucumber/cucumber-expressions/18.0.1/cucumber-expressions-18.0.1.jar:/home/vscode/.m2/repository/io/cucumber/cucumber-json-formatter/0.2.1/cucumber-json-formatter-0.2.1.jar:/home/vscode/.m2/repository/io/cucumber/datatable/7.30.0/datatable-7.30.0.jar:/home/vscode/.m2/repository/io/cucumber/cucumber-plugin/7.30.0/cucumber-plugin-7.30.0.jar:/home/vscode/.m2/repository/io/cucumber/docstring/7.30.0/docstring-7.30.0.jar:/home/vscode/.m2/repository/io/cucumber/html-formatter/21.15.1/html-formatter-21.15.1.jar:/home/vscode/.m2/repository/io/cucumber/junit-xml-formatter/0.9.0/junit-xml-formatter-0.9.0.jar:/home/vscode/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/home/vscode/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/vscode/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.30.0/cucumber-junit-platform-engine-7.30.0.jar:/home/vscode/.m2/repository/org/junit/platform/junit-platform-engine/1.14.0/junit-platform-engine-1.14.0.jar:/home/vscode/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/vscode/.m2/repository/org/junit/platform/junit-platform-commons/1.14.0/junit-platform-commons-1.14.0.jar:/home/vscode/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/home/vscode/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/home/vscode/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/home/vscode/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/home/vscode/.m2/repository/org/junit/platform/junit-platform-suite/1.10.2/junit-platform-suite-1.10.2.jar:/home/vscode/.m2/repository/org/junit/platform/junit-platform-suite-api/1.10.2/junit-platform-suite-api-1.10.2.jar:/home/vscode/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.10.2/junit-platform-suite-engine-1.10.2.jar:/home/vscode/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.10.2/junit-platform-suite-commons-1.10.2.jar:/home/vscode/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/workspaces/calculadora/target/surefire/surefirebooter-20251031034742967_3.jar"/>
+    <property name="surefire.real.class.path" value="/workspaces/calculadora/target/surefire/surefirebooter-20251031035424290_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="cucumber.plugin" value="pretty,html:target/cucumber-report.html,json:target/cucumber.json"/>
     <property name="java.runtime.version" value="21.0.8+9-LTS"/>
@@ -56,7 +56,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="División Exitosa en Bases Mixtas" classname="División de dos valores ingresados" time="0.068">
+  <testcase name="División Exitosa en Bases Mixtas" classname="División de dos valores ingresados" time="0.063">
     <system-out><![CDATA[
 &amp#27;[1mEscenario:&amp#27;[22m División Exitosa en Bases Mixtas        &amp#27;[90m# classpath:features/division.feature:7&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mDado &amp#27;[22mque el usuario quiere dividir dos números&amp#27;[39m &amp#27;[90m# com.example.steps.CalculadoraSteps.usuario_quiere_dividir()&amp#27;[39m
@@ -65,7 +65,7 @@
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mY &amp#27;[22mla base de salida elegida es &amp#27;[1m2&amp#27;[22m&amp#27;[39m               &amp#27;[90m# com.example.steps.CalculadoraSteps.la_base_de_salida_es(int)&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mEntonces &amp#27;[22mel resultado mostrado debe ser &amp#27;[1m"10"&amp#27;[22m&amp#27;[39m   &amp#27;[90m# com.example.steps.CalculadoraSteps.el_resultado_mostrado_debe_ser(java.lang.String)&amp#27;[39m
 ]]></system-out>
-    <system-err><![CDATA[Oct 31, 2025 3:47:43 AM io.cucumber.core.resource.ClasspathScanner safelyLoadClass
+    <system-err><![CDATA[Oct 31, 2025 3:54:25 AM io.cucumber.core.resource.ClasspathScanner safelyLoadClass
 WARNING: Failed to load class 'net.bytebuddy.dynamic.loading.ClassInjector$UsingJna$Dispatcher$Windows32BitFunctionMapper'.
 By default Cucumber scans the entire classpath for step definitions.
 You can restrict this by configuring the glue path.
@@ -178,7 +178,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.FunctionMapper
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
 	... 96 more
 
-Oct 31, 2025 3:47:43 AM io.cucumber.core.resource.ClasspathScanner safelyLoadClass
+Oct 31, 2025 3:54:25 AM io.cucumber.core.resource.ClasspathScanner safelyLoadClass
 WARNING: Failed to load class 'net.bytebuddy.dynamic.loading.ClassInjector$UsingJna$Dispatcher$Jvm'.
 By default Cucumber scans the entire classpath for step definitions.
 You can restrict this by configuring the glue path.
@@ -303,7 +303,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mEntonces &amp#27;[22mse debe mostrar un mensaje de error &amp#27;[1m"No es posible dividir por cero"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.example.steps.CalculadoraSteps.se_debe_mostrar_un_mensaje_de_error(java.lang.String)&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Rechazo por Base de Divisor Fuera de Rango" classname="División de dos valores ingresados" time="0.002">
+  <testcase name="Rechazo por Base de Divisor Fuera de Rango" classname="División de dos valores ingresados" time="0.005">
     <system-out><![CDATA[
 &amp#27;[1mEscenario:&amp#27;[22m Rechazo por Base de Divisor Fuera de Rango                                        &amp#27;[90m# classpath:features/division.feature:21&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mDado &amp#27;[22mque el usuario quiere dividir dos números&amp#27;[39m                                           &amp#27;[90m# com.example.steps.CalculadoraSteps.usuario_quiere_dividir()&amp#27;[39m
@@ -313,7 +313,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mEntonces &amp#27;[22mse debe mostrar un mensaje de error &amp#27;[1m"La base debe estar en el rango de 2 a 10."&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.example.steps.CalculadoraSteps.se_debe_mostrar_un_mensaje_de_error(java.lang.String)&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Rechazo por Dígito No Válido para la Base" classname="División de dos valores ingresados" time="0.004">
+  <testcase name="Rechazo por Dígito No Válido para la Base" classname="División de dos valores ingresados" time="0.013">
     <system-out><![CDATA[
 &amp#27;[1mEscenario:&amp#27;[22m Rechazo por Dígito No Válido para la Base                                         &amp#27;[90m# classpath:features/division.feature:28&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mDado &amp#27;[22mque el usuario quiere dividir dos números&amp#27;[39m                                           &amp#27;[90m# com.example.steps.CalculadoraSteps.usuario_quiere_dividir()&amp#27;[39m
@@ -323,7 +323,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mEntonces &amp#27;[22mse debe mostrar un mensaje de error &amp#27;[1m"El dígito '6' no es válido para la base 5"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.example.steps.CalculadoraSteps.se_debe_mostrar_un_mensaje_de_error(java.lang.String)&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Rechazo por Base de Salida Fuera de Rango" classname="División de dos valores ingresados" time="0.004">
+  <testcase name="Rechazo por Base de Salida Fuera de Rango" classname="División de dos valores ingresados" time="0.008">
     <system-out><![CDATA[
 &amp#27;[1mEscenario:&amp#27;[22m Rechazo por Base de Salida Fuera de Rango                                                &amp#27;[90m# classpath:features/division.feature:35&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mDado &amp#27;[22mque el usuario quiere dividir dos números&amp#27;[39m                                                  &amp#27;[90m# com.example.steps.CalculadoraSteps.usuario_quiere_dividir()&amp#27;[39m
@@ -333,7 +333,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mEntonces &amp#27;[22mse debe mostrar un mensaje de error &amp#27;[1m"La base de salida 12 está fuera del rango [2-10]"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.example.steps.CalculadoraSteps.se_debe_mostrar_un_mensaje_de_error(java.lang.String)&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Multiplicación Exitosa en Bases Mixtas" classname="Multiplicación de dos valores ingresados" time="0.002">
+  <testcase name="Multiplicación Exitosa en Bases Mixtas" classname="Multiplicación de dos valores ingresados" time="0.004">
     <system-out><![CDATA[
 &amp#27;[1mEscenario:&amp#27;[22m Multiplicación Exitosa en Bases Mixtas      &amp#27;[90m# classpath:features/multplicacion.feature:7&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mDado &amp#27;[22mque el usuario quiere multiplicar dos números&amp#27;[39m &amp#27;[90m# com.example.steps.CalculadoraSteps.usuario_quiere_multiplicar()&amp#27;[39m
@@ -343,7 +343,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mEntonces &amp#27;[22mel resultado mostrado debe ser &amp#27;[1m"6"&amp#27;[22m&amp#27;[39m        &amp#27;[90m# com.example.steps.CalculadoraSteps.el_resultado_mostrado_debe_ser(java.lang.String)&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Multiplicación Simple en Base 5" classname="Multiplicación de dos valores ingresados" time="0.003">
+  <testcase name="Multiplicación Simple en Base 5" classname="Multiplicación de dos valores ingresados" time="0.128">
     <system-out><![CDATA[
 &amp#27;[1mEscenario:&amp#27;[22m Multiplicación Simple en Base 5             &amp#27;[90m# classpath:features/multplicacion.feature:14&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mDado &amp#27;[22mque el usuario quiere multiplicar dos números&amp#27;[39m &amp#27;[90m# com.example.steps.CalculadoraSteps.usuario_quiere_multiplicar()&amp#27;[39m
@@ -353,7 +353,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mEntonces &amp#27;[22mel resultado mostrado debe ser &amp#27;[1m"22"&amp#27;[22m&amp#27;[39m       &amp#27;[90m# com.example.steps.CalculadoraSteps.el_resultado_mostrado_debe_ser(java.lang.String)&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Rechazo por Base de Factor 2 Fuera de Rango" classname="Multiplicación de dos valores ingresados" time="0.002">
+  <testcase name="Rechazo por Base de Factor 2 Fuera de Rango" classname="Multiplicación de dos valores ingresados" time="0.021">
     <system-out><![CDATA[
 &amp#27;[1mEscenario:&amp#27;[22m Rechazo por Base de Factor 2 Fuera de Rango                                       &amp#27;[90m# classpath:features/multplicacion.feature:21&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mDado &amp#27;[22mque el usuario quiere multiplicar dos números&amp#27;[39m                                       &amp#27;[90m# com.example.steps.CalculadoraSteps.usuario_quiere_multiplicar()&amp#27;[39m
@@ -363,7 +363,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mEntonces &amp#27;[22mse debe mostrar un mensaje de error &amp#27;[1m"La base debe estar en el rango de 2 a 10."&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.example.steps.CalculadoraSteps.se_debe_mostrar_un_mensaje_de_error(java.lang.String)&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Rechazo por Dígito No Válido para la Base" classname="Multiplicación de dos valores ingresados" time="0.001">
+  <testcase name="Rechazo por Dígito No Válido para la Base" classname="Multiplicación de dos valores ingresados" time="0.008">
     <system-out><![CDATA[
 &amp#27;[1mEscenario:&amp#27;[22m Rechazo por Dígito No Válido para la Base                                         &amp#27;[90m# classpath:features/multplicacion.feature:28&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mDado &amp#27;[22mque el usuario quiere multiplicar dos números&amp#27;[39m                                       &amp#27;[90m# com.example.steps.CalculadoraSteps.usuario_quiere_multiplicar()&amp#27;[39m
@@ -373,7 +373,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mEntonces &amp#27;[22mse debe mostrar un mensaje de error &amp#27;[1m"El dígito '6' no es válido para la base 5"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.example.steps.CalculadoraSteps.se_debe_mostrar_un_mensaje_de_error(java.lang.String)&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Rechazo por Base de Salida Fuera de Rango" classname="Multiplicación de dos valores ingresados" time="0.003">
+  <testcase name="Rechazo por Base de Salida Fuera de Rango" classname="Multiplicación de dos valores ingresados" time="0.009">
     <system-out><![CDATA[
 &amp#27;[1mEscenario:&amp#27;[22m Rechazo por Base de Salida Fuera de Rango                                                &amp#27;[90m# classpath:features/multplicacion.feature:35&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mDado &amp#27;[22mque el usuario quiere multiplicar dos números&amp#27;[39m                                              &amp#27;[90m# com.example.steps.CalculadoraSteps.usuario_quiere_multiplicar()&amp#27;[39m
@@ -383,7 +383,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mEntonces &amp#27;[22mse debe mostrar un mensaje de error &amp#27;[1m"La base de salida 12 está fuera del rango [2-10]"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.example.steps.CalculadoraSteps.se_debe_mostrar_un_mensaje_de_error(java.lang.String)&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Resta exitosa en bases mixtas" classname="Resta de dos valores ingresados" time="0.002">
+  <testcase name="Resta exitosa en bases mixtas" classname="Resta de dos valores ingresados" time="0.008">
     <system-out><![CDATA[
 &amp#27;[1mEscenario:&amp#27;[22m Resta exitosa en bases mixtas          &amp#27;[90m# classpath:features/resta.feature:7&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mDado &amp#27;[22mque el usuario quiere restar dos números&amp#27;[39m &amp#27;[90m# com.example.steps.CalculadoraSteps.usuario_quiere_restar()&amp#27;[39m
@@ -393,7 +393,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mEntonces &amp#27;[22mel resultado mostrado debe ser &amp#27;[1m"11"&amp#27;[22m&amp#27;[39m  &amp#27;[90m# com.example.steps.CalculadoraSteps.el_resultado_mostrado_debe_ser(java.lang.String)&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Resta simple en base 8" classname="Resta de dos valores ingresados" time="0.002">
+  <testcase name="Resta simple en base 8" classname="Resta de dos valores ingresados" time="0.005">
     <system-out><![CDATA[
 &amp#27;[1mEscenario:&amp#27;[22m Resta simple en base 8                 &amp#27;[90m# classpath:features/resta.feature:14&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mDado &amp#27;[22mque el usuario quiere restar dos números&amp#27;[39m &amp#27;[90m# com.example.steps.CalculadoraSteps.usuario_quiere_restar()&amp#27;[39m
@@ -403,7 +403,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mEntonces &amp#27;[22mel resultado mostrado debe ser &amp#27;[1m"20"&amp#27;[22m&amp#27;[39m  &amp#27;[90m# com.example.steps.CalculadoraSteps.el_resultado_mostrado_debe_ser(java.lang.String)&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Rechazo por base del sustraendo fuera de rango" classname="Resta de dos valores ingresados" time="0.003">
+  <testcase name="Rechazo por base del sustraendo fuera de rango" classname="Resta de dos valores ingresados" time="0.004">
     <system-out><![CDATA[
 &amp#27;[1mEscenario:&amp#27;[22m Rechazo por base del sustraendo fuera de rango                                    &amp#27;[90m# classpath:features/resta.feature:21&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mDado &amp#27;[22mque el usuario quiere restar dos números&amp#27;[39m                                            &amp#27;[90m# com.example.steps.CalculadoraSteps.usuario_quiere_restar()&amp#27;[39m
@@ -413,7 +413,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mEntonces &amp#27;[22mse debe mostrar un mensaje de error &amp#27;[1m"La base debe estar en el rango de 2 a 10."&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.example.steps.CalculadoraSteps.se_debe_mostrar_un_mensaje_de_error(java.lang.String)&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Rechazo por dígito no válido para la base" classname="Resta de dos valores ingresados" time="0.002">
+  <testcase name="Rechazo por dígito no válido para la base" classname="Resta de dos valores ingresados" time="0.005">
     <system-out><![CDATA[
 &amp#27;[1mEscenario:&amp#27;[22m Rechazo por dígito no válido para la base                                         &amp#27;[90m# classpath:features/resta.feature:28&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mDado &amp#27;[22mque el usuario quiere restar dos números&amp#27;[39m                                            &amp#27;[90m# com.example.steps.CalculadoraSteps.usuario_quiere_restar()&amp#27;[39m
@@ -423,7 +423,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mEntonces &amp#27;[22mse debe mostrar un mensaje de error &amp#27;[1m"El dígito '3' no es válido para la base 3"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.example.steps.CalculadoraSteps.se_debe_mostrar_un_mensaje_de_error(java.lang.String)&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Rechazo por base de salida fuera de rango" classname="Resta de dos valores ingresados" time="0.001">
+  <testcase name="Rechazo por base de salida fuera de rango" classname="Resta de dos valores ingresados" time="0.006">
     <system-out><![CDATA[
 &amp#27;[1mEscenario:&amp#27;[22m Rechazo por base de salida fuera de rango                                                &amp#27;[90m# classpath:features/resta.feature:35&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mDado &amp#27;[22mque el usuario quiere restar dos números&amp#27;[39m                                                   &amp#27;[90m# com.example.steps.CalculadoraSteps.usuario_quiere_restar()&amp#27;[39m
@@ -433,7 +433,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mEntonces &amp#27;[22mse debe mostrar un mensaje de error &amp#27;[1m"La base de salida 13 está fuera del rango [2-10]"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.example.steps.CalculadoraSteps.se_debe_mostrar_un_mensaje_de_error(java.lang.String)&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Suma exitosa en bases mixtas con resultado en base diferente" classname="Suma de dos valores ingresados" time="0.003">
+  <testcase name="Suma exitosa en bases mixtas con resultado en base diferente" classname="Suma de dos valores ingresados" time="0.005">
     <system-out><![CDATA[
 &amp#27;[1mEscenario:&amp#27;[22m Suma exitosa en bases mixtas con resultado en base diferente &amp#27;[90m# classpath:features/suma.feature:7&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mDado &amp#27;[22mque el usuario quiere sumar dos números&amp#27;[39m                        &amp#27;[90m# com.example.steps.CalculadoraSteps.usuario_quiere_sumar()&amp#27;[39m
@@ -443,7 +443,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mEntonces &amp#27;[22mel resultado mostrado debe ser &amp#27;[1m"18"&amp#27;[22m&amp#27;[39m                        &amp#27;[90m# com.example.steps.CalculadoraSteps.el_resultado_mostrado_debe_ser(java.lang.String)&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Suma simple con resultado en base 2" classname="Suma de dos valores ingresados" time="0.002">
+  <testcase name="Suma simple con resultado en base 2" classname="Suma de dos valores ingresados" time="0.006">
     <system-out><![CDATA[
 &amp#27;[1mEscenario:&amp#27;[22m Suma simple con resultado en base 2     &amp#27;[90m# classpath:features/suma.feature:14&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mDado &amp#27;[22mque el usuario quiere sumar dos números&amp#27;[39m   &amp#27;[90m# com.example.steps.CalculadoraSteps.usuario_quiere_sumar()&amp#27;[39m
@@ -453,7 +453,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mEntonces &amp#27;[22mel resultado mostrado debe ser &amp#27;[1m"1000"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.example.steps.CalculadoraSteps.el_resultado_mostrado_debe_ser(java.lang.String)&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Rechazo por base de entrada fuera de rango" classname="Suma de dos valores ingresados" time="0.001">
+  <testcase name="Rechazo por base de entrada fuera de rango" classname="Suma de dos valores ingresados" time="0.006">
     <system-out><![CDATA[
 &amp#27;[1mEscenario:&amp#27;[22m Rechazo por base de entrada fuera de rango                                        &amp#27;[90m# classpath:features/suma.feature:21&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mDado &amp#27;[22mque el usuario quiere sumar dos números&amp#27;[39m                                             &amp#27;[90m# com.example.steps.CalculadoraSteps.usuario_quiere_sumar()&amp#27;[39m
@@ -463,7 +463,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mEntonces &amp#27;[22mse debe mostrar un mensaje de error &amp#27;[1m"La base debe estar en el rango de 2 a 10."&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.example.steps.CalculadoraSteps.se_debe_mostrar_un_mensaje_de_error(java.lang.String)&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Rechazo por dígito no válido para la base" classname="Suma de dos valores ingresados" time="0.002">
+  <testcase name="Rechazo por dígito no válido para la base" classname="Suma de dos valores ingresados" time="0.005">
     <system-out><![CDATA[
 &amp#27;[1mEscenario:&amp#27;[22m Rechazo por dígito no válido para la base                                         &amp#27;[90m# classpath:features/suma.feature:28&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mDado &amp#27;[22mque el usuario quiere sumar dos números&amp#27;[39m                                             &amp#27;[90m# com.example.steps.CalculadoraSteps.usuario_quiere_sumar()&amp#27;[39m
@@ -473,7 +473,7 @@ Caused by: java.lang.ClassNotFoundException: com.sun.jna.Library
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mEntonces &amp#27;[22mse debe mostrar un mensaje de error &amp#27;[1m"El dígito '2' no es válido para la base 2"&amp#27;[22m&amp#27;[39m &amp#27;[90m# com.example.steps.CalculadoraSteps.se_debe_mostrar_un_mensaje_de_error(java.lang.String)&amp#27;[39m
 ]]></system-out>
   </testcase>
-  <testcase name="Rechazo por base de salida fuera de rango" classname="Suma de dos valores ingresados" time="0.001">
+  <testcase name="Rechazo por base de salida fuera de rango" classname="Suma de dos valores ingresados" time="0.006">
     <system-out><![CDATA[
 &amp#27;[1mEscenario:&amp#27;[22m Rechazo por base de salida fuera de rango                                               &amp#27;[90m# classpath:features/suma.feature:35&amp#27;[39m
   &amp#27;[32m✔&amp#27;[39m &amp#27;[32m&amp#27;[1mDado &amp#27;[22mque el usuario quiere sumar dos números&amp#27;[39m                                                   &amp#27;[90m# com.example.steps.CalculadoraSteps.usuario_quiere_sumar()&amp#27;[39m
