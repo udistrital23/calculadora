@@ -9,7 +9,7 @@ Característica: División de dos valores ingresados
     Cuando el dividendo es "32" en base 4
     Y el divisor es "7" en base 10
     Y la base de salida elegida es 2
-    Entonces el resultado mostrado debe ser "1"
+    Entonces el resultado mostrado debe ser "10"
 
   Escenario: Rechazo por División por Cero
     Dado que el usuario quiere dividir dos números
