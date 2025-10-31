@@ -1,2 +1,7 @@
 /workspaces/calculadora/src/main/java/com/example/Calculadora.java
-/workspaces/calculadora/src/main/java/com/example/AMBRCalculadora.java
+/workspaces/calculadora/src/main/java/com/example/Division.java
+/workspaces/calculadora/src/main/java/com/example/Multiplicacion.java
+/workspaces/calculadora/src/main/java/com/example/Numero.java
+/workspaces/calculadora/src/main/java/com/example/Operacion.java
+/workspaces/calculadora/src/main/java/com/example/Resta.java
+/workspaces/calculadora/src/main/java/com/example/Suma.java

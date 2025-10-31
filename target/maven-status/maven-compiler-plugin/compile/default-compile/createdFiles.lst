@@ -1,7 +1,7 @@
-AMBRCalculadora.class
-Division.class
-Numero.class
-Resta.class
-Suma.class
-Multiplicacion.class
-Operacion.class
+com/example/Multiplicacion.class
+com/example/Resta.class
+com/example/Suma.class
+com/example/Operacion.class
+com/example/Numero.class
+com/example/Division.class
+com/example/Calculadora.class

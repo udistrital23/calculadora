@@ -1,1 +1,2 @@
-/workspaces/calculadora/src/test/java/com/example/CalculadoraTest.java
+/workspaces/calculadora/src/test/java/com/example/RunCucumberTest.java
+/workspaces/calculadora/src/test/java/com/example/steps/CalculadoraSteps.java
